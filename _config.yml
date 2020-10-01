@@ -2,3 +2,15 @@ markdown: kramdown
 title: Destroying Computer
 description: Why are you here?
 theme: jekyll-theme-hacker
+
+...
+defaults:
+  -
+    scope:
+      path: "posts"
+      type: "pages"
+    values:
+      layout: "post"
+      author: "sol"
+      category: "posts"
+...
