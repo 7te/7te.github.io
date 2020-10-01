@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 permalink: /how-to-blog/
+author: robosol
 ---
 
 # Welcome
