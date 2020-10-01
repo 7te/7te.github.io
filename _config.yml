@@ -1,1 +1,4 @@
-remote-theme: riggraz/no-style-please
+markdown: kramdown
+title: Destroying Computer
+description: Why are you here?
+remote-theme: akiritsu/pRoJEct-NeGYa
