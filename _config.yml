@@ -1,7 +1,7 @@
 markdown: kramdown
 title: Destroying Computer
 description: Why are you here?
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minimal
 
 ...
 defaults:
