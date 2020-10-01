@@ -1,6 +1,7 @@
 markdown: kramdown
 title: Destroying Computer
 description: Why are you here?
+logo: /assets/img/cheabs2.jpg
 theme: jekyll-theme-minimal
 
 ...

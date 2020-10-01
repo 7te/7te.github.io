@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: index.html
 title: ENDLESS SUFFERING
 ---
@@ -8,7 +8,7 @@ title: ENDLESS SUFFERING
 
 ### Do U Realize
 
-![true](https://256.sh/i/nspl.png)
+![true](./assets/img/welcome.jpg)
 
 # THE WEBPAGE **WILL** WORK 
 
