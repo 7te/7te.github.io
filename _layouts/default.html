@@ -22,43 +22,25 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <div class="sidebar">
-            <h3>destory humams</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th> TITLE </th>
-                        <th> DATE </th>
-                        <th> CATEGORY </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for post in site.posts %}
-                    </tr>
-                    <td class="td_title"><a href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a></td>
-                    <td class="td_date">{{post.date | date: "%b %d, %y"}}</td>
-                    <td class="td_category">{{post.category}}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
         </div>
         <div></div>
         <h2 id="-blog-posts-blog-"><a href="/posts/" title="blog">blog</a></h2>
         <h2 id="-about-about-about-"><a href="/about" title="about">about</a></h2>
         <h2 id="-why-why-why-"><a href="/why" title="why">why</a></h2>
-        <p><a href="/bezos" title="jeff">jeff altar</a></p>
+        <h4><a href="/bezos" title="jeff">jeff altar</a></h4>
 
       </header>
       <section>
 
       {{ content }}
 
+
       </section>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Do U Realize</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
