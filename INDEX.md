@@ -1,14 +1,19 @@
 ---
-layout: page
+layout: post
 permalink: index.html
 ---
  
-# i really will just have to write my own theme eh? 
+# destroying . computer
 
-## if i must, i must...
 
-[blog](/posts/ "blog") 
+## [blog](/posts/ "blog") 
 
-</br>
 
-[about](/about "about") 
+
+## [about](/about "about") 
+
+## [why] (/why "why)
+
+
+
+[jeff altar](/bezos "jeff")
