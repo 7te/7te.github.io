@@ -5,22 +5,20 @@
 $dark : #29292f;
 $light : #fafafa;
 $default-background : #232323;
-
 body {
     header {
         h1 a{
-            color: hsla(35, 91%, 91%, 0.94);
+            color: hsla(27, 86%, 50%, 1);
         }
         h1 a:hover{
-            color: hsla(35, 91%, 91%, 0.77);
+            color: hsla(27, 91%, 50%, 0.77);
     }
     
-    background: $default-background!important;
+    background-color: $default-background!important;
     color: set-text-color($default-background);
 
     a {
         color: #00abab;
-
     }
 
     a:hover {
@@ -36,7 +34,7 @@ body {
     }
 
     code, pre {
-        overflow-x: visible;
+        background-color: #557573;
     }
     .ascii {
         overflow-x: visible;
