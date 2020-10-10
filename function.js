@@ -1,7 +1,10 @@
 function flipSwitch() {
-    console.log('button triggered');
-    
-    if (document.querySelector('body').style.backgroundColor = '#fafafa')
-    {document.querySelector('body').style.backgroundColor = '#232323'}
-    else { document.querySelector('body').style.backgroundColor = '#fafafa'}
+
+    if (document.querySelector('html').style.backgroundColor = 'rgb(35, 35, 35)') {
+        document.querySelector('html').style.backgroundColor = 'rgb(250, 250, 250)';
+        console.log('clrwasfafafa');
+    }
+    if (document.querySelector('html').style.backgroundColor = 'rgb(250, 250, 250)') {             document.querySelector('html').style.backgroundColor = 'rgb(35, 35, 35)';
+        console.log('darkkk');
+    }
 }
