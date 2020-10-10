@@ -6,7 +6,7 @@ title: "about"
 
 
 
-##### Interested in computer science, information security, geopolitics, open source, music, fitness, nature, cooking, sustainability, tea, motorcycles, being less wrong, et al.
+##### Interested in computer science, information security, geopolitics, open source, music, fitness, nature, cooking, sustainability, travel, tea, motorcycles, being less wrong, et al.
 
 # elsewhere
 

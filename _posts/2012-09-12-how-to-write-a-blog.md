@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-permalink: /how-to-blog/
-author: robosol
+layout: page
+title: "how to write a blog"
+date: 2012-09-12 12:00:00 -0000
+categories: test blog
 ---
 
 # Welcome
