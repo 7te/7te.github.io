@@ -8,10 +8,10 @@ $default-background : #232323;
 
 @function set-text-color($color) {
     @if (lightness( $color ) > 50) {
-        @return $black;
+        @return $dark;
     }
     @else {
-        @return $white;
+        @return $light;
     }
 }
 
