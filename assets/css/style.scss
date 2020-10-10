@@ -2,14 +2,21 @@
 ---
 
 @import "{{ site.theme }}";
+$dark : #272727;
+$light : #fafafa;
+$default-background : #000;
+
 body {
     header {
         h1 a{
             color: hsla(35, 91%, 91%, 0.94);
         }
+        h1 a:hover{
+            color: hsla(35, 91%, 91%, 0.77);
     }
-    background-color: #292929;
-    color: #fff;
+    
+    background-color: $default-background;
+    color: set-text-color($default-background);
 
     a {
         color: #00abab;
@@ -19,8 +26,12 @@ body {
     a:hover {
         color: #006868;
     }
-
+    
+    :is(h1, h2, h3, h4, h5, h6) {
+        color: #fff;
+    }
     h1 {
+        color: #fa3a3a;
         font-size: 3rem;
     }
 
@@ -30,7 +41,17 @@ body {
     .ascii {
         overflow-x: visible;
     }
-
+    img {
+        overflow-x: visible;
+    }
     footer {color: #fafdfa;}
+}
+
+@function set-text-color($color) {
+    if(lightness( $color ) > 50) {
+        @return $black;
+    } else {
+        @return $white;
+    }
 }
 
