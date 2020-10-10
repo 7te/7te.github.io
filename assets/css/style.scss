@@ -15,7 +15,7 @@ body {
             color: hsla(35, 91%, 91%, 0.77);
     }
     
-    background: $default-background;
+    background: $default-background!important;
     color: set-text-color($default-background);
 
     a {
