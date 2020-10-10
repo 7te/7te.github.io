@@ -43,9 +43,3 @@ title: "about"
 * # [test2](https://duckduckgo.com "test2") 
 
 * ## [test2](https://duckduckgo.com "test2") 
- 
- 
-## the nuances....
-
-
-# DO U REALIZE
