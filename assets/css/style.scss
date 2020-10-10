@@ -4,8 +4,9 @@
 @import "{{ site.theme }}";
 body .wrapper {
     header {
-        h1 {
+        h1 a{
             color: hsla(35, 91%, 91%, 0.94);
+            font-size: 2rem;
         }
     }
     background-color: #292929 !important;
@@ -20,7 +21,7 @@ body .wrapper {
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     code, pre {
