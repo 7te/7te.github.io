@@ -4,7 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        var time = Date.now;
+        console.log(time);
+        function flipSwitch() {
 
+        if (document.querySelector('html').style.backgroundColor = 'rgb(35, 35, 35)') {
+            document.querySelector('html').style.backgroundColor = 'rgb(250, 250, 250)';
+            console.log('clrwasfafafa');
+        }
+        if (document.querySelector('html').style.backgroundColor = 'rgb(250, 250, 250)') {
+            document.querySelector('html').style.backgroundColor = 'rgb(35, 35, 35)';
+    console.log('darkkk');
+        }
+    }
+    </script>
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -27,15 +41,37 @@
         <h2 id="-blog-posts-blog-"><a href="/archive" title="blog">blog</a></h2>
         <h2 id="-about-about-about-"><a href="/about" title="about">about</a></h2>
         <h2 id="-why-why-why-"><a href="/why" title="why">why</a></h2>
-        <h4><a href="/bezos" title="jeff">jeff altar</a></h4>
-        <!-- update from current default idiot!!! -->
+        <h4><a href="/bezos" title="jeff (not that jeff)">jeff altar</a></h4>
+        <button id="toggleUI" onclick="flipSwitch()"> i </button>
       </header>
- 
       <section>
+        <pre class="ascii">
+          
 
+▓█████▄ ▓█████   ██████ ▄▄▄█████▓ ██▀███   ▒█████ ▓██   ██▓ ██▓ ███▄    █   ▄████    ▓█████▄  ▒█████  ▄▄▄█████▓   
+▒██▀ ██▌▓█   ▀ ▒██    ▒ ▓  ██▒ ▓▒▓██ ▒ ██▒▒██▒  ██▒▒██  ██▒▓██▒ ██ ▀█   █  ██▒ ▀█▒   ▒██▀ ██▌▒██▒  ██▒▓  ██▒ ▓▒   
+░██   █▌▒███   ░ ▓██▄   ▒ ▓██░ ▒░▓██ ░▄█ ▒▒██░  ██▒ ▒██ ██░▒██▒▓██  ▀█ ██▒▒██░▄▄▄░   ░██   █▌▒██░  ██▒▒ ▓██░ ▒░   
+░▓█▄   ▌▒▓█  ▄   ▒   ██▒░ ▓██▓ ░ ▒██▀▀█▄  ▒██   ██░ ░ ▐██▓░░██░▓██▒  ▐▌██▒░▓█  ██▓   ░▓█▄   ▌▒██   ██░░ ▓██▓ ░    
+░▒████▓ ░▒████▒▒██████▒▒  ▒██▒ ░ ░██▓ ▒██▒░ ████▓▒░ ░ ██▒▓░░██░▒██░   ▓██░░▒▓███▀▒   ░▒████▓ ░ ████▓▒░  ▒██▒ ░    
+ ▒▒▓  ▒ ░░ ▒░ ░▒ ▒▓▒ ▒ ░  ▒ ░░   ░ ▒▓ ░▒▓░░ ▒░▒░▒░   ██▒▒▒ ░▓  ░ ▒░   ▒ ▒  ░▒   ▒     ▒▒▓  ▒ ░ ▒░▒░▒░   ▒ ░░      
+ ░ ▒  ▒  ░ ░  ░░ ░▒  ░ ░    ░      ░▒ ░ ▒░  ░ ▒ ▒░ ▓██ ░▒░  ▒ ░░ ░░   ░ ▒░  ░   ░     ░ ▒  ▒   ░ ▒ ▒░     ░       
+ ░ ░  ░    ░   ░  ░  ░    ░        ░░   ░ ░ ░ ░ ▒  ▒ ▒ ░░   ▒ ░   ░   ░ ░ ░ ░   ░     ░ ░  ░ ░ ░ ░ ▒    ░         
+   ░       ░  ░      ░              ░         ░ ░  ░ ░      ░           ░       ░       ░        ░ ░              
+ ░                                                 ░ ░                                ░                           
+ ▄████▄   ▒█████   ███▄ ▄███▓ ██▓███   █    ██ ▄▄▄█████▓▓█████  ██▀███                                            
+▒██▀ ▀█  ▒██▒  ██▒▓██▒▀█▀ ██▒▓██░  ██▒ ██  ▓██▒▓  ██▒ ▓▒▓█   ▀ ▓██ ▒ ██▒                                          
+▒▓█    ▄ ▒██░  ██▒▓██    ▓██░▓██░ ██▓▒▓██  ▒██░▒ ▓██░ ▒░▒███   ▓██ ░▄█ ▒                                          
+▒▓▓▄ ▄██▒▒██   ██░▒██    ▒██ ▒██▄█▓▒ ▒▓▓█  ░██░░ ▓██▓ ░ ▒▓█  ▄ ▒██▀▀█▄                                            
+▒ ▓███▀ ░░ ████▓▒░▒██▒   ░██▒▒██▒ ░  ░▒▒█████▓   ▒██▒ ░ ░▒████▒░██▓ ▒██▒                                          
+░ ░▒ ▒  ░░ ▒░▒░▒░ ░ ▒░   ░  ░▒▓▒░ ░  ░░▒▓▒ ▒ ▒   ▒ ░░   ░░ ▒░ ░░ ▒▓ ░▒▓░                                          
+  ░  ▒     ░ ▒ ▒░ ░  ░      ░░▒ ░     ░░▒░ ░ ░     ░     ░ ░  ░  ░▒ ░ ▒░                                          
+░        ░ ░ ░ ▒  ░      ░   ░░        ░░░ ░ ░   ░         ░     ░░   ░                                           
+░ ░          ░ ░         ░               ░                 ░  ░   ░                                               
+░                                                                                                                 
+
+
+        </pre>
       {{ content }}
-
-
       </section>
       <footer>
         {% if site.github.is_project_page %}
@@ -45,6 +81,10 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+        console.log(Date.now - time);
+    </script>
+
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

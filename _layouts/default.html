@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
+        var time = Date.now;
+        console.log(time);
+        function flipSwitch() {
 
-         function flipSwitch() {
-
-                                console.log('button triggered')
-                                if (document.                      querySelector('body'). style.backgroundColor = '#fafafa';)
-                                {document.                         querySelector('body').    style.backgroundColor = '#232323';}
-                                else {                             document.                    querySelector('body').style.         backgroundColor
-
+        if (document.querySelector('html').style.backgroundColor = 'rgb(35, 35, 35)') {
+            document.querySelector('html').style.backgroundColor = 'rgb(250, 250, 250)';
+            console.log('clrwasfafafa');
+        }
+        if (document.querySelector('html').style.backgroundColor = 'rgb(250, 250, 250)') {
+            document.querySelector('html').style.backgroundColor = 'rgb(35, 35, 35)';
+    console.log('darkkk');
+        }
+    }
     </script>
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -33,11 +38,12 @@
         <div class="sidebar">
         </div>
         <div></div>
-        <h2 id="-blog-posts-blog-"><a href="/archive" title="blog">blog</a></h2>
-        <h2 id="-about-about-about-"><a href="/about" title="about">about</a></h2>
-        <h2 id="-why-why-why-"><a href="/why" title="why">why</a></h2>
+        <h3 id="-blog-posts-blog-"><a href="/archive" title="blog">blog</a></h3>
+        <h3 id="-about-about-about-"><a href="/about" title="about">about</a></h3>
+        <h3 id="-why-why-why-"><a href="/why" title="why">why</a></h3>
         <h4><a href="/bezos" title="jeff (not that jeff)">jeff altar</a></h4>
         <button id="toggleUI" onclick="flipSwitch()"> i </button>
+        <p>color testing here</p>
       </header>
       <section>
       {{ content }}
@@ -51,7 +57,7 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
-        console.log("whoaaaaaaa");
+        console.log(Date.now - time);
     </script>
 
     {% if site.google_analytics %}
