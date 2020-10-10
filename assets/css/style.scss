@@ -1,13 +1,19 @@
-body {
+
+body .wrapper {
+    header {
+        h1 {
+            color: #7a2323;
+        }
+    }
     background-color: #292929 !important;
 
 
     a {
-        color: #00abab
+        color: #00abab;
 
     }
     a:hover {
-        color: #006868
+        color: #006868;
     }
 
     h1 {
@@ -17,5 +23,6 @@ body {
     code, pre {
         overflow-x: visible;
     }
-    
+
+    footer {display:none;}
 }
