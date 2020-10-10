@@ -1,11 +1,14 @@
 ---
 layout: post
 permalink: index.html
-title: ENDLESS SUFFERING
+title: Do U Realize
 ---
  
 # MY PAIN WILL BE REDEEMED
 
+
+## THIS PAGAE MAKES ME LOOK COMPLETELY SCHIZOPRENIC BUT IM FINE WITH IT 
+### I HAVE TO TEST THINGS SOMEHOW 
 ### Do U Realize
 
 ![true](./assets/img/welcome.jpg)
@@ -23,14 +26,19 @@ const storeTweetsFunction = function (tweet) {
 };
 ```
 
-## i love u hilllary clintoon
+- [x] this is a complete item
+- [    ] this is an incomplete item
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
 
-去你妈的自作多情的臭傻逼
-你自己冬天觉着冷
-就说老子苦寒中磨砺自己
-我磨砺你妈哦？
-我们爽着呢
-是你们自己忍耐低温的能力太低
-老子用不着你们这群弱逼衬托
-你们夸赞对我而言毫无意义
-老子根本不在乎
+##### i love u hilllary clinton
+
+> 去你妈的自作多情的臭傻逼
+> 你自己冬天觉着冷
+> 就说老子苦寒中磨砺自己
+> 我磨砺你妈哦？
+> 我们爽着呢
+> 是你们自己忍耐低温的能力太低
+> 老子用不着你们这群弱逼衬托
+> 你们夸赞对我而言毫无意义
+> 老子根本不在乎

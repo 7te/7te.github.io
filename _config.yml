@@ -1,6 +1,6 @@
 markdown: kramdown
 title: Destroying Computer
-description: Why are you here?
+description: swag surfin 2 insterstellar planet
 logo: /assets/img/cheabs2.jpg
 theme: jekyll-theme-minimal
 
@@ -12,6 +12,6 @@ defaults:
       type: "pages"
     values:
       layout: "post"
-      author: "sol"
+      author: "7te"
       category: "posts"
 ...
