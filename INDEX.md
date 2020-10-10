@@ -8,5 +8,7 @@ title: Do U Realize
 
 ## if i must, i must...
 
-[blog](destroying.computer/posts/ "blog") 
-[about](destroying.computer/about/ "about") 
+[blog](/posts/ "blog") 
+</br>
+
+[about](/about "about") 
