@@ -28,15 +28,17 @@
         <h2 id="-about-about-about-"><a href="/about" title="about">about</a></h2>
         <h2 id="-why-why-why-"><a href="/why" title="why">why</a></h2>
         <h4><a href="/bezos" title="jeff (not that jeff)">jeff altar</a></h4>
-        <button id="toggleUI" onclick="function() {
+        <button id="toggleUI" onclick="function flipSwitch() {
                               
-                              document.querySelector('body').style.backgroundColor = '#fafafa';
+                              console.log('button triggered')
+                              if(document.querySelector('body').style.backgroundColor = '#fafafa';) {document.querySelector('body').style.backgroundColor = '#232323';} else { document.querySelector('body').style.backgroundColor = '#fafafa';}
                               
                               }"> i </button>
       </header>
       <section>
 
       {{ content }}
+
 
       </section>
       <footer>
