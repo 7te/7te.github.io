@@ -27,12 +27,11 @@ body {
     }
     
     :is(h1, h2, h3, h4, h5, h6) {
-        color: #ff0000;
+        color: set-text-color($default-background);
     }
     h1 {
-        color: #fa3a3a;
-        font-size: 3rem;
-    }
+        font-weight: 800;
+     }
 
     code, pre {
         background-color: #557573;
