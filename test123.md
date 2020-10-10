@@ -9,7 +9,7 @@ permalink: /test123/
 ### I HAVE TO TEST THINGS SOMEHOW 
 ### Do U Realize
 
-![true](./assets/img/welcome.jpg)
+![true](./assets/img/welcome.png)
 
 # THE WEBPAGE **WILL** WORK 
 
