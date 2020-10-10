@@ -8,6 +8,9 @@ title: "about"
 
 ##### Interested in computer science, information security, geopolitics, open source, music, fitness, nature, cooking, sustainability, travel, tea, motorcycles, being less wrong, et al.
 
+
+
+
 # elsewhere
 
  * ## work 
@@ -27,19 +30,3 @@ title: "about"
     * [typeracer](https://data.typeracer.com/pit/profile?user=thonkang "typeracer")
     * [keybr](https://www.keybr.com/profile/a484jkf "keybr") 
     * [humanbenchmark](https://humanbenchmark.com/users/5dbc56aad333e000011ecfb1 "humanbenchmark") 
-
-
-
- ```js
- console.log(function(){
-     console.log(function(){
-         console.log(function(){
-             console.error("cool");
-         }
-     });
- })
- ```
-
-* # [test2](https://duckduckgo.com "test2") 
-
-* ## [test2](https://duckduckgo.com "test2") 

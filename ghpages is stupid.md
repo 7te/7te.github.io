@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NEW EPIC AWESOMENESS THAT WILL WORK
-permalink: /stupid/
+permalink: /stupid
 author: robo sol
 ---
 
