@@ -2,9 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-$dark : #272727;
+$dark : #29292f;
 $light : #fafafa;
-$default-background : #000;
+$default-background : #232323;
 
 body {
     header {
@@ -15,7 +15,7 @@ body {
             color: hsla(35, 91%, 91%, 0.77);
     }
     
-    background-color: $default-background;
+    background: $default-background;
     color: set-text-color($default-background);
 
     a {
