@@ -2,9 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-$dark : #29292f;
+$dark : #111;
 $light : #fafafa;
-$default-background : #232323;
+$default-background : #292929;
 
 @function set-text-color($color) {
     @if (lightness( $color ) > 50) {
@@ -41,17 +41,22 @@ body {
     :is(h1, h2, h3, h4, h5, h6) {
         color: set-text-color($default-background);
     }
+
     h1 {
         font-weight: 800;
      }
 
-    code, pre {
+    pre code {
         background-color: #557573;
     }
 
     .ascii {
+        background-color: rgba(255, 99, 71, 0);
         overflow-x: visible;
+        border: none;
+        color: #fff;
     }
+
     img .logo {
         max-width: 180%;
         overflow-x: visible;
