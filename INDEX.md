@@ -2,8 +2,6 @@
 layout: post
 permalink: index.html
 ---
- 
-# destroying . computer
 
 
 ## [blog](/posts/ "blog") 
@@ -12,7 +10,8 @@ permalink: index.html
 
 ## [about](/about "about") 
 
-## [why] (/why "why)
+
+ [why](/why "why)
 
 
 
