@@ -5,6 +5,18 @@
 $dark : #29292f;
 $light : #fafafa;
 $default-background : #232323;
+
+@function set-text-color($color) {
+    @if (lightness( $color ) > 50) {
+        @return $black;
+    }
+    @else {
+        @return $white;
+    }
+  }
+}
+
+
 body {
     
      background-color: $default-background!important;
@@ -45,14 +57,3 @@ body {
     }
     footer {color: #fafdfa;}
 }
-
-@function set-text-color($color) {
-    @if (lightness( $color ) > 50) {
-        @return $black;
-    }
-    @else {
-        @return $white;
-    }
-  }
-}
-
