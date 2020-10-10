@@ -1,3 +1,26 @@
+---
+layout: default
+---
+
+
 <div>
     <h1>lol!</h1>
+                <table>
+                 <thead>
+                     <tr>
+                         <th> TITLE </th>
+                         <th> DATE </th>
+                         <th> CATEGORY </th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     {% for post in site.posts %}
+                     </tr>
+                     <td class="td_title"><a href="{{site.url}}{{site.           baseurl}}{{post.url}}">{{post.title}}</a></td>
+                     <td class="td_date">{{post.date | date: "%b %d, %y"}}</td>
+                     <td class="td_category">{{post.category}}</td>
+                     </tr>
+                     {% endfor %}
+                 </tbody>
+             </table>
 </div>

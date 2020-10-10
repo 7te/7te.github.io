@@ -2,20 +2,20 @@
 ---
 
 @import "{{ site.theme }}";
-body .wrapper {
+body {
     header {
         h1 a{
             color: hsla(35, 91%, 91%, 0.94);
-            font-size: 2rem;
         }
     }
-    background-color: #292929 !important;
-
+    background-color: #292929;
+    color: #fff;
 
     a {
         color: #00abab;
 
     }
+
     a:hover {
         color: #006868;
     }
@@ -27,7 +27,10 @@ body .wrapper {
     code, pre {
         overflow-x: visible;
     }
+    .ascii {
+        overflow-x: visible;
+    }
 
-    footer {display:none;}
+    footer {color: #fafdfa;}
 }
 
