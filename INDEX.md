@@ -8,6 +8,7 @@ permalink: index.html
 ## if i must, i must...
 
 [blog](/posts/ "blog") 
+
 </br>
 
 [about](/about "about") 
