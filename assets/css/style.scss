@@ -1,4 +1,32 @@
 ---
 ---
 
-@import "build.scss";
+@import "{{ site.theme }}";
+body .wrapper {
+    header {
+        h1 {
+            color: hsla(35, 91%, 91%, 0.94);
+        }
+    }
+    background-color: #292929 !important;
+
+
+    a {
+        color: #00abab;
+
+    }
+    a:hover {
+        color: #006868;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    code, pre {
+        overflow-x: visible;
+    }
+
+    footer {display:none;}
+}
+
