@@ -7,6 +7,9 @@ layout: posts
 
 # cpma 5v5 tactical shooter
 
+> i promise i can come up with even more dumb buzzwords too!
+
+
 ### learning C++ has been a goal of mine for quite some time, and i finally feel like i have the tools to do so, in addition to the motivation
 
 ##### _mind mapping atm dont mind me_
@@ -21,6 +24,11 @@ https://github.com/ko1N/firstperson/
 Serverside stuff
 https://github.com/dreamstalker/rehlds
 https://github.com/s1lentq/ReGameDLL_CS/
+
+## links
+
+(strafing physics)[https://www.youtube.com/watch?v=rTsXO6Zicls]
+
 
 # milestones
     > move, shoot, look
