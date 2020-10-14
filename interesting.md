@@ -28,10 +28,9 @@ layout: page
         "last_modified": "1574369632",
         "add_date": "1489202091"
     }]
-    <code>
+    </code>
 
-		<ul>
-
+<ul style="font-size: large">
             <li><a href="https://www.npr.org/sections/health-shots/2015/01/09/376084137/trapped-in-his-body-for-12-years-a-man-breaks-free" time_added="1600111348" tags="">Trapped In His Body For 12 Years, A Man Breaks Free : Shots - Health News :</a></li>
             <li><a href="https://www.oregonlive.com/news/2020/08/usps-removes-mailboxes-in-portland-and-eugene-cites-declining-mail-volume.html" time_added="1597437226" tags="">USPS removes mailboxes in Portland and Eugene, cites ‘declining mail volume</a></li>
             <li><a href="https://onezero.medium.com/an-unelected-monarch-is-shaping-our-public-life-his-name-is-mark-zuckerberg-d7c571bd42d2" time_added="1597436791" tags="">An Unelected Monarch Is Shaping Our Public Life. His Name Is Mark Zuckerber</a></li>
@@ -41,12 +40,6 @@ layout: page
             <li><a href="https://www.theguardian.com/environment/2019/feb/10/plummeting-insect-numbers-threaten-collapse-of-nature?" time_added="1549835779" tags="">Plummeting insect numbers &#039;threaten collapse of nature&#039; | Environment | The</a></li>
             <li><a href="https://motherboard.vice.com/en_us/article/a3bg9g/joshua-tree-national-park-could-take-200-to-300-years-to-recover-from-the-government-shutdown" time_added="1549474058" tags="">Joshua Tree National Park Could Take ‘200 to 300 Years’ to Recover From the</a></li>
             <li><a href="https://motherboard.vice.com/en_us/article/a3be34/climate-change-alter-color-half-earths-oceans-2100-phytoplankton" time_added="1549362357" tags="">Climate Change Will Alter the Color of Half of Earth’s Oceans by 2100 - Mot</a></li>
-
-            {% for data in site.data.bookmarks1 %}
-              <li>
-                <a href="{{ data.url }}"> {{ data.title }} </a>
-              </li>
-            {% endfor %}
             
             {% for data in site.data.bookmarks2 %}
               <li>
