@@ -10,6 +10,26 @@ layout: page
 	</head>
 	<body>
 		<h1>interesting</h1>
+    <pre>
+    [
+    {
+        "description": "",
+        "title": "Recent Tags",
+        "url": "place:type=6&sort=14&maxResults=10",
+        "categories": [
+            {
+                "name": "Bookmarks Menu",
+                "last_modified": null,
+                "add_date": null,
+                "level": 1
+            }
+        ],
+        "tags": [],
+        "last_modified": "1574369632",
+        "add_date": "1489202091"
+    }]
+    </pre>
+
 		<ul>
             <li><a href="https://www.npr.org/sections/health-shots/2015/01/09/376084137/trapped-in-his-body-for-12-years-a-man-breaks-free" time_added="1600111348" tags="">Trapped In His Body For 12 Years, A Man Breaks Free : Shots - Health News :</a></li>
             <li><a href="https://www.oregonlive.com/news/2020/08/usps-removes-mailboxes-in-portland-and-eugene-cites-declining-mail-volume.html" time_added="1597437226" tags="">USPS removes mailboxes in Portland and Eugene, cites ‘declining mail volume</a></li>
@@ -23,8 +43,13 @@ layout: page
 
             {% for url in site.data.bookmarks1 %}
               <li>
-                <a href="{{ bookmarks1.url }}">
-                <p> {{ bookmarks1.title }} </p>
+                <a href="{{ bookmarks1.url }}"> {{ bookmarks1.title }} </a>
+              </li>
+            {% endfor %}
+            
+            {% for url in site.data.bookmarks2 %}
+              <li>
+                <a href="{{ bookmarks2.url }}"> {{ bookmarks2.title }} </a>
               </li>
             {% endfor %}
 </ul>
