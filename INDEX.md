@@ -4,6 +4,10 @@ permalink: index.html
 ---
 ![logo](./assets/img/biglogo.png)
 
+# someday this will look nice, but not today 
+
+
+_this stuff renders so ugly idk what im gonna do to style it properly across browsers_
 ```
 
 
