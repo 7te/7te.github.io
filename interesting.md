@@ -9,7 +9,7 @@ layout: page
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
 		<title>interesting</title>
 	</head>
-	<body>
+	<body style="background-color: #292929;">
     <a href="/"><i><sup>return home</sup></i></a>
 		<h1>interesting</h1>
     <div></div>
@@ -32,3 +32,16 @@ layout: page
 
     </ul>
 </body>
+
+ https://www.mintpressnews.com/william-barr-formally-announces-orwellian-pre-crime-program/262504/
+ https://onezero.medium.com/exclusive-this-is-how-the-u-s-militarys-massive-facial-recognition-system-works-bb764291b96d
+ http://strangeandhappy.com/2009/08/
+ https://google.github.io/tacotron/publications/speaker_adaptation/
+ https://www.vice.com/en_us/article/zmjp73/fbi-asked-sony-playstation-4-user-data-cocaine-dealer
+ https://www.vice.com/en_us/article/zmjp73/fbi-asked-sony-playstation-4-user-data-cocaine-dealer
+ https://medicalxpress.com/news/2019-05-trippy-images-ai-super-stimulate-monkey.html
+ https://www.theguardian.com/environment/2020/mar/11/polar-ice-caps-melting-six-times-faster-than-in-1990s
+ https://www.rightwingwatch.org/post/the-federalist-asks-is-america-better-off-letting-people-die-from-coronavirus/
+ https://www.theverge.com/2020/9/9/21429635/amazon-keith-alexander-board-of-directors-nsa-cyber-command
+ https://www.vice.com/en_us/article/5dzbe3/customs-and-border-protection-predator-drone-minneapolis-george-floyd
+ https://www.bloomberg.com/news/articles/2020-06-02/britain-s-record-sunshine-offers-a-glimpse-into-a-dry-future

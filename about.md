@@ -17,7 +17,7 @@ title: "about"
  * ## work 
     * [github](https://github.com/7te "github") 
     * [hackernews](https://news.ycombinator.com/user?id=gjkhkldajghl "hackernews") 
-    * [twitter](https://twitter.com/kanyewest "twitter") 
+    * [twitter](https://twitter.com/gamerwoadie "twitter") 
 
  * ## music
     * [last.fm](https://www.last.fm/user/jl- "last.fm") 

@@ -2,7 +2,7 @@
 date: 2020-10-01 12:00:00 -0000
 categories: posts
 author: 7te
-layout: posts
+layout: post
 ---
 
 # cpma 5v5 tactical shooter
@@ -29,6 +29,8 @@ https://github.com/dreamstalker/rehlds
 https://github.com/s1lentq/ReGameDLL_CS/
 
 ## links
+
+(bible)[https://kz-rush.ru/en]
 
 (strafing physics)[https://www.youtube.com/watch?v=rTsXO6Zicls]
 
