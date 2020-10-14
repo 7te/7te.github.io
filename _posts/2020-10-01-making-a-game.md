@@ -11,9 +11,12 @@ layout: posts
 
 
 ### learning C++ has been a goal of mine for quite some time, and i finally feel like i have the tools to do so, in addition to the motivation
-
+#### i think i am using godot for this? 
 ##### _mind mapping atm dont mind me_
 
+**aaah man this is either gonna be easy**
+
+*or itll be hard idk which*
 
 ## repos 
 

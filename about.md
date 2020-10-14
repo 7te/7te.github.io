@@ -16,7 +16,7 @@ title: "about"
 
  * ## work 
     * [github](https://github.com/7te "github") 
-    * [hackernews](https://news.ycombinator.com/user?id=TO_BE_DETERMINED "hackernews") 
+    * [hackernews](https://news.ycombinator.com/user?id=gjkhkldajghl "hackernews") 
     * [twitter](https://twitter.com/kanyewest "twitter") 
 
  * ## music
