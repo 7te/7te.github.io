@@ -41,7 +41,7 @@ layout: page
             <li><a href="https://motherboard.vice.com/en_us/article/a3bg9g/joshua-tree-national-park-could-take-200-to-300-years-to-recover-from-the-government-shutdown" time_added="1549474058" tags="">Joshua Tree National Park Could Take ‘200 to 300 Years’ to Recover From the</a></li>
             <li><a href="https://motherboard.vice.com/en_us/article/a3be34/climate-change-alter-color-half-earths-oceans-2100-phytoplankton" time_added="1549362357" tags="">Climate Change Will Alter the Color of Half of Earth’s Oceans by 2100 - Mot</a></li>
             
-            {% for data in site.data.bookmarks2 %}
+            {% for data in site.data.links %}
               <li>
                 <a href="{{ data.url }}"> {{ data.title }} </a>
               </li>
