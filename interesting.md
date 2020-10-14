@@ -3,17 +3,18 @@ layout: page
 ---
 <html>
 	<!--interesting-->
-  	<!--display thse randomly -->
+  	<!--display thse randomly l8a -->
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
 		<title>interesting</title>
 	</head>
 	<body>
+    <a href="/"><i><sup>return home</sup></i></a>
 		<h1>interesting</h1>
-    <div#/>
+    <div></div>
     <ul style="font-size: large">
-            <li><a href="https://www.npr.org/sections/health-shots/2015/01/09/376084137/trapped-in-his-body-for-12-years-a-man-breaks-free" time_added="1600111348" tags="">Trapped In His Body For 12 Years, A Man Breaks Free : Shots - Health News :</a></li>
+            <li><a href="https://www.npr.org/sections/health-shots/2015/01/09/376084137/trapped-in-his-body-for-12-years-a-man-breaks-free" time_added="1600111348" tags="">Trapped In His Body For 12 Years, A Man Breaks Free : Shots - Health News </a></li>
             <li><a href="https://www.oregonlive.com/news/2020/08/usps-removes-mailboxes-in-portland-and-eugene-cites-declining-mail-volume.html" time_added="1597437226" tags="">USPS removes mailboxes in Portland and Eugene, cites ‘declining mail volume</a></li>
             <li><a href="https://onezero.medium.com/an-unelected-monarch-is-shaping-our-public-life-his-name-is-mark-zuckerberg-d7c571bd42d2" time_added="1597436791" tags="">An Unelected Monarch Is Shaping Our Public Life. His Name Is Mark Zuckerber</a></li>
             <li><a href="https://gekk.info/articles/adhd.html" time_added="1579843948" tags="">ADHD | Gekk</a></li>
