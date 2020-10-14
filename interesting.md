@@ -3,6 +3,7 @@ layout: page
 ---
 <html>
 	<!--interesting-->
+  	<!--display thse randomly -->
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
@@ -10,7 +11,7 @@ layout: page
 	</head>
 	<body>
 		<h1>interesting</h1>
-    </div>
+    <div#/>
     <ul style="font-size: large">
             <li><a href="https://www.npr.org/sections/health-shots/2015/01/09/376084137/trapped-in-his-body-for-12-years-a-man-breaks-free" time_added="1600111348" tags="">Trapped In His Body For 12 Years, A Man Breaks Free : Shots - Health News :</a></li>
             <li><a href="https://www.oregonlive.com/news/2020/08/usps-removes-mailboxes-in-portland-and-eugene-cites-declining-mail-volume.html" time_added="1597437226" tags="">USPS removes mailboxes in Portland and Eugene, cites ‘declining mail volume</a></li>
@@ -24,7 +25,7 @@ layout: page
             
             {% for data in site.data.links %}
               <li>
-                <a href="{{ data.url }}" time_added="" tags""> {{ data.title }} </a>
+                <a href="{{ data.url }}" time_added="" tags=""> {{ data.title }} </a>
               </li>
             {% endfor %}
 
