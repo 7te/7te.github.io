@@ -6,8 +6,11 @@ permalink: index.html
 
 # someday this will look nice, but not today 
 
+### the css is disgusting for this website yes that is true!
 
-_this stuff renders so ugly idk what im gonna do to style it properly across browsers_
+### _this ascii stuff renders so ugly idk what im gonna do to style it properly across browsers_
+
+
 ```
 
 
