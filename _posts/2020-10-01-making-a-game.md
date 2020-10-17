@@ -31,10 +31,11 @@ https://github.com/s1lentq/ReGameDLL_CS/
 
 ## links
 
-(bible)[https://kz-rush.ru/en]
+[bible](https://kz-rush.ru/en)
 
-(strafing physics)[https://www.youtube.com/watch?v=rTsXO6Zicls]
+[strafing physics](https://www.youtube.com/watch?v=rTsXO6Zicls)
 
+[https://gamesounds.xyz/](ewat)
 
 # milestones
     > move, shoot, look

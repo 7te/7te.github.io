@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>a</title>
+    <!--<link rel="stylesheet" type="text/css" link="https://unpkg.com/mono-icons@1.0.0/iconfont/icons.css"> -->
+    <style>
+          @font-face {
+        font-family: "Roboto Mono";
+        src: url("../fonts/roboto-mono-medium.ttf");
+    }
+
+    :root {
+        --font: "Roboto Mono";
+        --background: #22211d;
+        --foreground: #807a74;
+        --pink: #61e070;
+        --red: #479a43;
+        --orange: #497f7d;
+        --branch: 1px solid #fff1e9;
+    }
+
+    html {
+        font-size: 18px;
+    }
+
+    body {
+        background: var(--background);
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+
+    .prompt {
+        font-family: var(--font);
+        color: var(--foreground);
+    }
+
+    .prompt~.prompt {
+        padding: 1.5rem 0 0.3125rem;
+    }
+
+    span {
+        color: var(--pink);
+    }
+
+    h1 {
+        display: inline;
+        font-family: var(--font);
+        font-size: 1rem;
+        font-weight: normal;
+        color: var(--red);
+    }
+
+    .tree > ul {
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 2.5rem;
+    }
+
+    li {
+        position: relative;
+    }
+
+    li::before, li::after {
+        content: "";
+        position: absolute;
+        left: -0.75rem;
+    }
+
+    li::before {
+        border-top: var(--branch);
+        top: 0.75rem;
+        width: 0.5rem;
+    }
+
+    li::after {
+        border-left: var(--branch);
+        height: 100%;
+        top: 0.25rem;
+    }
+
+    li:last-child::after {
+        height: 0.5rem;
+    }
+
+    a {
+        font-family: var(--font);
+        font-size: 1rem;
+        color: var(--foreground);
+        text-decoration: none;
+        outline: none;
+    }
+
+    a:hover {
+        color: var(--background);
+        background: var(--orange);
+    }
+
+    form h1 {
+        padding-left: 0.125rem;
+    }
+
+    input {
+        font-family: var(--font);
+        font-size: 1rem;
+        color: var(--foreground);
+        background-color: var(--background);
+        border: none;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="prompt">[<span>jljljl</span>@<span>host</span> ~]$ search</div>
+      <form action="https://duckduckgo.com/" method="GET">
+        <h1>search: </h1>
+        <input type="text" name="q" autofocus="autofocus">
+      </form>
+      </br>
+      <div class="prompt">[<span>jljljl</span>@<span>host</span> ~]$ ls</div>
+      <div class="tree">
+        <h1>...</h1>
+        <ul>
+          <li>
+            <h1>pinned</h1>
+            <ul>
+              <li><a href="https://www.last.fm/user/jl-">last.fm</a></li>
+              <li><a href="https://old.reddit.com/r/all">idiots</a></li>
+              <li><a href="https://twitter.com/">bird website</a></li>
+            </ul>
+          </li>
+          <li>
+            <h1>work</h1>
+            <ul>
+              <li><a href="https://news.ycombinator.com/">rich nerds</a></li>
+              <li><a href="https://github.com/">github</a></li>
+            </ul>
+          </li>
+          <li>
+            <h1>other</h1>
+            <ul>
+              <li><a href="https://www.youtube.com">yt</a></li>
+              <li><a href="https://mail.google.com">mail</a></li>
+              <li><a href="https://open.spotify.com/search">spotify</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
