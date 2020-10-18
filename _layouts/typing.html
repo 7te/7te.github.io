@@ -16,9 +16,9 @@ layout: default
         req.open('GET', profileRequest);
         req.send();
         req.onLoad = function (){
-            const res = request.response;
+            const responseCode = request.response;
             
-            console.log(res);
+            console.log(request);
 
             const profileElement = `
             <li>
