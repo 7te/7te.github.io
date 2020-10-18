@@ -24,6 +24,8 @@ https://github.com/ValveSoftware/halflife
 https://github.com/FWGS/xash3d
 https://github.com/FWGS/cs16-client
 https://github.com/ko1N/firstperson/
+https://github.com/WiggleWizard/quake3-movement-unity3d
+https://github.com/ic3bug/Godot-3.2-Multiplayer-FPS
 
 Serverside stuff
 https://github.com/dreamstalker/rehlds

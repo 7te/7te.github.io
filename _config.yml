@@ -3,6 +3,8 @@ title: Destroying Computer
 description: swag surfin 2 insterstellar planet
 logo: /assets/img/cheabs2.jpg
 theme: jekyll-theme-minimal
+plugins: 
+  - jekyll-coffeescript
 
 ...
 defaults:
