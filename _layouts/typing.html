@@ -1,8 +1,13 @@
+---
+layout: default
+---
+
+
 <div id="typing-container">
     <script>
         let username = 'jml-'
         var apiDateStart = 1476799995;
-        var apiDateEnd = Date.Now();
+        var apiDateEnd = Date.now();
         let recentRacesRequest = `https://data.typeracer.com/games?playerId=tr:${username}&universe=play&startDate=${apiDateStart}&endDate=${apiDateEnd}`;
         let profileRequest = `https://data.typeracer.com/users?id=tr:${username}&universe=play`;
         let textStatsRequest = `https://data.typeracer.com/textstats?textId=1&distinct=1&universe=play&playerId=tr:${username}`;
@@ -31,7 +36,7 @@
             }
         }
     </script>
-
+    <h1>recent typing results</h1>
     <ul>
     </ul>
 
