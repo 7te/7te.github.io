@@ -11,6 +11,7 @@ layout: page
 	</head>
 	<body>
     <a href="/"><i><sup>return home</sup></i></a>
+    <div></div>
 		<h1>interesting</h1>
     <div></div>
     <ul style="font-size: large">
