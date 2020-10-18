@@ -1,13 +1,5 @@
 <div id="typing-container">
     <script>
-
-        const profileElement = `
-            <li>
-                <h3 class="accountName">${res.name}</h3>
-                <h5 class="date">right now bro :)</h5>
-                <p class="wpm">${res.tstats.recentScores}</p>
-            </li>
-        `
         let username = 'jml-'
         var apiDateStart = 1476799995;
         var apiDateEnd = Date.Now();
@@ -20,7 +12,17 @@
         request.send();
         request.onload = function (){
             const res = request.response;
+            
             console.log(res);
+
+            const profileElement = `
+            <li>
+                <h3 class="accountName">${res.name}</h3>
+                <h5 class="date">right now bro :)</h5>
+                <p class="wpm">${res.tstats.recentScores}</p>
+            </li>
+             `
+        
             for (const name in res) {
                 if (res.hasOwnProperty(name)) {
                     const element = res[name];
