@@ -1,0 +1,37 @@
+<div id="typing-container">
+    <script>
+
+        const profileElement = `
+            <li>
+                <h3 class="accountName">${res.name}</h3>
+                <h5 class="date">right now bro :)</h5>
+                <p class="wpm">${res.tstats.recentScores}</p>
+            </li>
+        `
+        let username = 'jml-'
+        var apiDateStart = 1476799995;
+        var apiDateEnd = Date.Now();
+        let recentRacesRequest = `https://data.typeracer.com/games?playerId=tr:${username}&universe=play&startDate=${apiDateStart}&endDate=${apiDateEnd}`;
+        let profileRequest = `https://data.typeracer.com/users?id=tr:${username}&universe=play`;
+        let textStatsRequest = `https://data.typeracer.com/textstats?textId=1&distinct=1&universe=play&playerId=tr:${username}`;
+
+        let req = new XMLHttpRequest();
+        req.open('GET', profileRequest);
+        request.send();
+        request.onload = function (){
+            const res = request.response;
+            console.log(res);
+            for (const name in res) {
+                if (res.hasOwnProperty(name)) {
+                    const element = res[name];
+                    
+                }
+            }
+        }
+    </script>
+
+    <ul>
+    </ul>
+
+
+</div>
