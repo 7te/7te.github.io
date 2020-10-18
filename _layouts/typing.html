@@ -14,8 +14,8 @@ layout: default
 
         let req = new XMLHttpRequest();
         req.open('GET', profileRequest);
-        request.send();
-        request.onload = function (){
+        req.send();
+        req.onLoad = function (){
             const res = request.response;
             
             console.log(res);
