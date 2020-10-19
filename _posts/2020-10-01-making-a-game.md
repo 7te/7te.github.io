@@ -1,6 +1,6 @@
 ---
 date: 2020-10-01 12:00:00 -0000
-categories: posts
+category: posts
 author: 7te
 layout: post
 tags: software development coding projects 

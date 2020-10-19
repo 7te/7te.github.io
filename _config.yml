@@ -11,7 +11,7 @@ defaults:
   -
     scope:
       path: "posts"
-      type: "pages"
+      type: "posts"
     values:
       layout: "post"
       author: "7te"

@@ -1,7 +1,8 @@
 ---
 layout: post
 date: 2020-09-08 12:00:00 -0000
-categories: posts
+category: posts
+author: 7te
 tags: productivity life note-taking zetterkasten
 ---
 
@@ -22,13 +23,11 @@ Recently I came across [this](https://news.ycombinator.com/item?id=24709393) lin
 - [x] is built on technology that i am confident will be around for a decade, at a minimum
 - [x] easy to use`[2]`, but more importantly, fast to use so that I can brainstorm as fast as I can type and add media without hassle
 
-
-
-
+A few other quick positives, if you maintain a markdown based blog such as this one, using nb makes it incredibly easy to create blog posts from your zetterkasten.
 
 I've had some issues getting **nb** to work on Windows 10, but I haven't had any issues on any *nix based system.
 
-> citations
+>  ## citations
 
 * `[0]` LITERALLY decades
 * `[1]` idk what i was citing here tbh..
