@@ -3,6 +3,7 @@ date: 2020-10-01 12:00:00 -0000
 categories: posts
 author: 7te
 layout: post
+tags: software development coding projects 
 ---
 
 # cpma 5v5 tactical shooter

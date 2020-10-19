@@ -21,7 +21,8 @@ title: "about"
 
  * ## music
     * [last.fm](https://www.last.fm/user/jl- "last.fm") 
-    * [spotify account](https://open.spotify.com/user/124951816 "spotify") 
+    * [spotify account](https://open.spotify.com/user/124951816 "spotify")
+         - i enjoy curating playlists, take a look! 
     * [rym](https://rateyourmusic.com/~jljljl "rateyourmusic") 
     * [discogs](https://www.discogs.com/user/jl- "discogs")
  

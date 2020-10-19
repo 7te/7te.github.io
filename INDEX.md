@@ -1,8 +1,9 @@
 ---
-layout: root
+layout: default
+title: Destroying Computer
 permalink: index.html
 ---
-![logo](./assets/img/biglogo.png)
+![logo](./assets/img/welcome.png)
 
 # someday this will look nice, but not today 
 
