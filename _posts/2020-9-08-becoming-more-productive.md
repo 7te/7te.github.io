@@ -22,6 +22,7 @@ Recently I came across [this](https://news.ycombinator.com/item?id=24709393) lin
 - [x] isn't maintained by a company as a source of profit or ideally open sourced
 - [x] is built on technology that i am confident will be around for a decade, at a minimum
 - [x] easy to use`[2]`, but more importantly, fast to use so that I can brainstorm as fast as I can type and add media without hassle
+- [x] git, or git-like behavior
 
 A few other quick positives, if you maintain a markdown based blog such as this one, using nb makes it incredibly easy to create blog posts from your zetterkasten.
 

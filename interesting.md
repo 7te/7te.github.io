@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: interesting
 ---
 <html>
 	<!--interesting-->
@@ -15,7 +16,7 @@ layout: page
 		<h1>interesting</h1>
     <div></div>
     <ul style="font-size: large">
-            <li><a href="https://www.nytimes.com/2020/10/13/magazine/free-speech.html" time_added="1600111348" tags="">Trapped In His Body For 12 Years, A Man Breaks Free : Shots - Health News </a></li>
+            <li><a href="https://www.nytimes.com/2020/10/13/magazine/free-speech.html" time_added="1600111348" tags="">The Problem of Free Speech in an Age of Disinformation </a></li>
             <li><a href="https://www.npr.org/sections/health-shots/2015/01/09/376084137/trapped-in-his-body-for-12-years-a-man-breaks-free" time_added="1600111348" tags="">Trapped In His Body For 12 Years, A Man Breaks Free : Shots - Health News </a></li>
             <li><a href="https://www.oregonlive.com/news/2020/08/usps-removes-mailboxes-in-portland-and-eugene-cites-declining-mail-volume.html" time_added="1597437226" tags="">USPS removes mailboxes in Portland and Eugene, cites ‘declining mail volume</a></li>
             <li><a href="https://onezero.medium.com/an-unelected-monarch-is-shaping-our-public-life-his-name-is-mark-zuckerberg-d7c571bd42d2" time_added="1597436791" tags="">An Unelected Monarch Is Shaping Our Public Life. His Name Is Mark Zuckerber</a></li>
