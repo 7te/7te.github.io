@@ -32,8 +32,8 @@
     </div>
     <script src="/assets/js/fp.min.js"></script>
     <script>
-      const fp = FingerprintJS.load({ /* ... */ })
-      const result = fp.get()
+      const fp = await FingerprintJS.load({ /* ... */ })
+      const result = await fp.get()
       const visitorId = result.visitorId
       console.log(visitorId)
     </script>
