@@ -15,7 +15,7 @@ permalink: /test123/
 
 ### we will render things!!!
 
-{{ include background.html}}
+
 ```js
 const storeTweetsFunction = function (tweet) {
    fs.appendFile('tweets.json', tweet + ',', function(err){

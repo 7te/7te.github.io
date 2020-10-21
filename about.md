@@ -21,19 +21,15 @@ title: "about"
 
  * ## music
     * [last.fm](https://www.last.fm/user/jl- "last.fm") 
-    * [spotify account](https://open.spotify.com/user/124951816 "spotify")
-         - i enjoy curating playlists, take a look! 
+    * [spotify account](https://open.spotify.com/user/124951816 "spotify") 
     * [rym](https://rateyourmusic.com/~jljljl "rateyourmusic") 
     * [discogs](https://www.discogs.com/user/jl- "discogs")
  
  * ## fun 
-    - #### very bad at chess
     * [lichess](https://lichess.org/@/iqdf "lichess") 
     * [chess.com](https://www.chess.com/member/xxioa "chess.com") 
-    - #### okay at typing
     * [typeracer](https://data.typeracer.com/pit/profile?user=jml- "typeracer (yeah i need to play on this more...)")
     * [keybr](https://www.keybr.com/profile/a484jkf "keybr") 
-    - #### above average verbal memory
     * [humanbenchmark](https://humanbenchmark.com/users/5dbc56aad333e000011ecfb1 "humanbenchmark") 
 
  * ## other

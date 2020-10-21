@@ -1,4 +1,6 @@
+<div id="details">
 
+</div>
 <script language="javascript">
     function ShowBrowserDetails() {
     var BrowserName = navigator.appName; //gets the name of the browser
@@ -13,7 +15,7 @@
     outputStr = outputStr + "<br>Java enabled: " + isJavaEnabled;
     outputStr = outputStr + "<br>Screen width: " + screenWidth;
     outputStr = outputStr + "<br>Screen height: " + screenHeight + "</p>";
-    document.write (outputStr); // print
+    document.getElementById(details).innerHTML = (outputStr); // print
     }
 
     ShowBrowserDetails();
