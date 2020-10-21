@@ -33,6 +33,7 @@
     <script src="/assets/js/fp.min.js"></script>
     <script>
       async function a() {
+        console.log("Do U Realize")
         const fp = await FingerprintJS.load({ /* ... */ })
         const result = await fp.get()
         const visitorId = result.visitorId
