@@ -46,4 +46,6 @@ ffs ill add all of these later
  https://www.rightwingwatch.org/post/the-federalist-asks-is-america-better-off-letting-people-die-from-coronavirus/
  https://www.theverge.com/2020/9/9/21429635/amazon-keith-alexander-board-of-directors-nsa-cyber-command
  https://www.vice.com/en_us/article/5dzbe3/customs-and-border-protection-predator-drone-minneapolis-george-floyd
- https://www.bloomberg.com/news/articles/2020-06-02/britain-s-record-sunshine-offers-a-glimpse-into-a-dry-future -->
+ https://www.bloomberg.com/news/articles/2020-06-02/britain-s-record-sunshine-offers-a-glimpse-into-a-dry-future
+ https://www.axios.com/americas-true-unemployment-rate-6e34decb-c274-4feb-a4af-ffac8cf5840d.html
+  -->

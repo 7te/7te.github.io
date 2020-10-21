@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: root
 title: Destroying Computer
 permalink: index.html
 ---
@@ -8,5 +8,3 @@ permalink: index.html
 # welcome to destroying . computer
 
 ### breaking some things, fixing others
-
-{% include site.layout.background %}
