@@ -27,6 +27,7 @@
         <h3 id="-about-about-about-"><a href="/about" title="about">about</a></h3>
         <h3 id="-why-why-why-"><a href="/why" title="why">why</a></h3>
         <h3 id="-interesting-interesting-interesting"><a href="/interesting" title="interesting">interesting</a></h3>
+        <h3 id="-projects-projects-projects"><a href="/typing" title="typing">projects</a></h3>
         <!-- <h3><a href="/bezos" title="jeff (not that jeff)">jeff altar</a></h3> -->
         <button id="toggleUI" onclick="flipSwitch()" style="display: none;"> i </button>
       </header>
@@ -37,6 +38,13 @@
         <sup>7te7te7te7te7te7te7te7te7te7te7te7te7te7te7te7te7te7te</sup>
       </footer>
     </div>
+    <script src="/assets/js/fp.min.js"></script>
+    <script>
+      const fp = await FingerprintJS.load({ /* ... */ })
+      const result = await fp.get()
+      const visitorId = result.visitorId
+      console.log(visitorId)
+    </script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
