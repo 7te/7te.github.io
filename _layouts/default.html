@@ -32,7 +32,7 @@
     </div>
     <script src="/assets/js/fp.min.js"></script>
     <script>
-      function a() {
+      async function a() {
         const fp = await FingerprintJS.load({ /* ... */ })
         const result = await fp.get()
         const visitorId = result.visitorId
