@@ -32,10 +32,13 @@
     </div>
     <script src="/assets/js/fp.min.js"></script>
     <script>
-      const fp = await FingerprintJS.load({ /* ... */ })
-      const result = await fp.get()
-      const visitorId = result.visitorId
-      console.log(visitorId)
+      function a() {
+        const fp = await FingerprintJS.load({ /* ... */ })
+        const result = await fp.get()
+        const visitorId = result.visitorId
+        console.log(visitorId)
+      }
+      a()
     </script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
