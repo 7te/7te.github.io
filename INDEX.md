@@ -8,3 +8,5 @@ permalink: index.html
 # welcome to destroying . computer
 
 ### breaking some things, fixing others
+
+{% include site.layout.background %}
