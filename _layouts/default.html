@@ -20,7 +20,6 @@
         <h3 id="-why-why-why-"><a href="/why" title="why">why</a></h3>
         <h3 id="-interesting-interesting-interesting"><a href="/interesting" title="interesting">interesting</a></h3>
         <h3 id="-projects-projects-projects"><a href="/typing" title="typing">projects</a></h3>
-        <!-- <h3><a href="/bezos" title="jeff (not that jeff)">jeff altar</a></h3> -->
         <button id="toggleUI" onclick="flipSwitch()" style="display: none;"> i </button>
       </header>
       <section>
@@ -28,6 +27,7 @@
       </section>
       <footer>
         <sup>7te7te7te7te7te7te7te7te7te7te7te7te7te7te7te7te7te7te</sup>
+        {% include background.html %}
       </footer>
     </div>
     <script src="/assets/js/fp.min.js"></script>
@@ -38,6 +38,7 @@
         const result = await fp.get()
         const visitorId = result.visitorId
         console.log(visitorId)
+        return visitorId
       }
       a()
     </script>
